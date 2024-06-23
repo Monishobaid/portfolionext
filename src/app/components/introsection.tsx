@@ -42,7 +42,7 @@ const IntroSection = () => {
           </p>
         </div>
       </div>
-      <div className="mt-6 leading-[26px] space-y-4">
+      <div className="mt-6 space-y-4">
         <p>
           <span>Hello world;</span> I&apos;m Monish Obaid, a front-end developer
           currently at{" "}

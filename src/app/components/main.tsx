@@ -4,6 +4,7 @@ import IntroSection from './introsection';
 import TechStack from './techstack';
 import Exp from './exp';
 import Awards from './awards';
+import Footer from './footer';
 
 const Main = () => {
     return (
@@ -13,6 +14,7 @@ const Main = () => {
             <Exp/>
             <TechStack/>
             <Awards/>
+            <Footer/>
         </div>
     );
 };
