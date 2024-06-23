@@ -3,14 +3,15 @@ import React from 'react';
 
 interface NavItemProps {
   label: string;
-  href: string;
+  href?: string;
+  mailto?: string;
   isHome?: boolean;
   onClick?: (e: React.MouseEvent<HTMLAnchorElement>) => void;
 }
 
-const NavItem: React.FC<NavItemProps> = ({ label, href, isHome, onClick }) => (
+const NavItem: React.FC<NavItemProps> = ({ label, href, mailto, isHome, onClick }) => (
   <a
-    href={href}
+    href={mailto ? `mailto:${mailto}` : href}
     onClick={onClick}
     className={`cursor-pointer hover:text-gray-800 transition-all ${
       isHome ? '' : 'underline underline-offset-[3px] decoration-dotted decoration-1 decoration-gray-400 hover:decoration-gray-800'
@@ -34,9 +35,9 @@ const Navbar: React.FC = () => {
 
   const navItems: NavItemProps[] = [
     { label: '/', href: '/', isHome: true },
-    { label: 'Projects', href: '/projects' },
+    { label: 'Projects', href: 'https://github.com/Monishobaid' },
     { label: 'Download CV', href: '#', onClick: handleDownloadCV },
-    { label: 'Contact', href: '/contact' }
+    { label: 'Contact', mailto: 'monishobaid@gmail.com' }
   ];
 
   return (
