@@ -1,5 +1,3 @@
-"use client";
-
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import profilepic from "../../assets/profilepic.png";
@@ -38,13 +36,13 @@ const IntroSection = () => {
         <div>
           <p className="text-xs ml-4 text-gray-400">{`{ Local Time: ${time} }`}</p>
           <p className="text-xs italic text-gray-400 ml-4">
-            "waqt rahta nahin kahin tik kar, aadat is ki bhi aadmi si hai"
+            &quot;waqt rahta nahin kahin tik kar, aadat is ki bhi aadmi si hai&quot;
           </p>
         </div>
       </div>
       <div className="mt-6 leading-[26px] space-y-4">
         <p>
-          <span>Hello world;</span> I'm Monish Obaid, a front-end developer
+          <span>Hello world;</span> I&apos;m Monish Obaid, a front-end developer
           currently at{" "}
           <a
             href="https://www.fuelbuddy.in/"
@@ -52,12 +50,12 @@ const IntroSection = () => {
           >
             FuelBuddy
           </a>
-          . I create user interfaces so smooth and intuitive, you'll think your
+          . I create user interfaces so smooth and intuitive, you&apos;ll think your
           computer is psychic.
         </p>
         <p>
-          When I'm not coding, I'm diving into History and Philosophy. Part-time
-          philosopher, part-time historian—I'm all in for pondering the universe
+          When I&apos;m not coding, I&apos;m diving into History and Philosophy. Part-time
+          philosopher, part-time historian—I&apos;m all in for pondering the universe
           and laughing at 1800s fashion.
         </p>
       </div>
