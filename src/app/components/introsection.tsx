@@ -52,8 +52,7 @@ const IntroSection = () => {
           >
             FuelBuddy
           </a>
-          . I create user interfaces so smooth and intuitive, you&apos;ll think your
-          computer is psychic.
+          . I specialize in designing user interfaces that blend simplicity with functionality, making technology intuitive and effortless
         </p>
         <p>
           When I&apos;m not coding, I&apos;m diving into History and Philosophy. Part-time

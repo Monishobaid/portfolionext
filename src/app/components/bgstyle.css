@@ -1,5 +1,7 @@
 .bg-custom {
-  background-image: url("../../assets/bg.svg");
+  background-image: url("../../assets/real.svg");
+  background-position: bottom right;
+  background-repeat: no-repeat;
 }
 
 .content-wrapper {
