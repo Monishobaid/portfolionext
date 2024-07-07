@@ -61,7 +61,7 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({
 
 const Experience: React.FC = () => {
   return (
-    <div className="mt-12">
+    <div className="mt-12 text-black">
       <h2 className="text-xl font-bold">EXPERIENCE</h2>
 
 
