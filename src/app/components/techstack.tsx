@@ -14,7 +14,7 @@ const TechStackItem: React.FC<TechStackItemProps> = ({ category, technologies })
 
 const TechStack: React.FC = () => {
   return (
-    <div className="mt-12">
+    <div className="mt-12 text-black">
       <h2 className="text-xl font-bold uppercase">TECH STACK</h2>
       <div className="mt-2">
         <div className="main-stack space-y-4">
