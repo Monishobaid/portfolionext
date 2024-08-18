@@ -71,8 +71,9 @@ const Experience: React.FC = () => {
         location="Gurugram, India"
         date="June 2024 - Present"
         points={[
-          "Shifted the customer application from Vue 3 to React Native, improving cross-platform compatibility and user experience.",
-          "Led the development of a dynamic reporting dashboard using React and D3.js, providing real-time data visualization and insights for better decision-making.",
+          "Enhanced the customer application with wallet transaction capabilities via Easebuzz, increasing payment convenience and user satisfaction by 5%.",
+          "Implemented POD/COD and online payment delivery flows in the React Native application, enhancing the overall payment flexibility for users.",
+          "Conducted code analysis and refactoring of the franchise application, leading to a 10% improvement in code maintainability and a 5% increase in development speed."
         ]}
       />
 
@@ -82,9 +83,8 @@ const Experience: React.FC = () => {
         location="Gurugram, India"
         date="Aug 2023 - June 2024"
         points={[
-          "Implemented a streamlined Payment-on-delivery (POD) system for drivers, optimizing transaction processes for improved operational efficiency.",
-          "Enhanced the customer application with wallet transaction capabilities via Easebuzz, increasing payment convenience and user satisfaction by 2%.",
-          "Revamped franchise application code for improved readability and maintained proficiency in reactivity, component-based architecture, state management, and responsive design principles, leading to a 10% improvement in code maintainability and a 5% increase in development speed.",
+          "Streamlined operations by creating a flow where organizational users manage deliveries for all associated users, improving efficiency by 15%.",
+          "Pioneered the creation of a comprehensive reports page for all orders using D3.js, increasing data accessibility by 20% and enabling data-driven decision-making across departments, resulting in a 15% boost in operational efficiency",
         ]}
       />
 

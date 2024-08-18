@@ -42,7 +42,7 @@ const IntroSection = () => {
           </p>
         </div>
       </div>
-      <div className="mt-6 space-y-4 text-s text-black">
+      <div className="mt-6 space-y-4 text-m text-black">
         <p>
           <span>Hello world;</span> I&apos;m Monish Obaid, a front-end developer
           currently at{" "}
@@ -52,12 +52,11 @@ const IntroSection = () => {
           >
             FuelBuddy
           </a>
-          . I specialize in designing user interfaces that blend simplicity with functionality, making technology intuitive and effortless
+          . I specialize in designing user interfaces that blend simplicity with functionality, making technology intuitive and effortless.
         </p>
         <p>
           When I&apos;m not coding, I&apos;m diving into History and Philosophy. Part-time
-          philosopher, part-time historian—I&apos;m all in for pondering the universe
-          and laughing at 1800s fashion.
+          philosopher, part-time historian.
         </p>
       </div>
     </div>

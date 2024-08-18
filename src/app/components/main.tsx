@@ -16,7 +16,7 @@ const Main = () => {
         <IntroSection />
         <Exp />
         <TechStack />
-        <Awards />
+        {/* <Awards /> */}
         <PinnedProjects />
         <Footer />
       </div>
