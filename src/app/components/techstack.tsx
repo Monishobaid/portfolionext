@@ -19,7 +19,7 @@ const TechStack: React.FC = () => {
       <div className="space-y-4">
         <TechStackItem
           category="Languages"
-          technologies="Python / JavaScript / TypeScript"
+          technologies="Python / JavaScript / TypeScript / C++"
         />
         <TechStackItem
           category="JS Framework"
