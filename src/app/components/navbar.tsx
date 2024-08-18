@@ -7,7 +7,7 @@ const Navbar = () => {
   const navItems = [
     { label: '/', href: '/' },
     { label: 'Projects', href: 'https://github.com/Monishobaid' },
-    { label: 'Download CV', href: '/monish_obaid_cv.pdf', download: true },
+    { label: 'Download CV', href: '/monishHere.pdf', download: true },
     { label: 'Contact', href: 'mailto:monishobaid@gmail.com' }
   ];
 
